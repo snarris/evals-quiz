@@ -2,7 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+
+## Github
+To push to remote
+
+git remote add origin git@github.com:snarris/evals-quiz.git
+git branch -M main
+git push -u origin main
+
 ## Testing
+- Create comprehensive tests as part of any completely new implementation
 - Use TDD: write a failing test before implementing new functionality
 - Mock external services (httpx, Playwright, Anthropic) — never call real APIs in tests
 - Always run the full test suite before committing code

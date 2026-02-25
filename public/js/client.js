@@ -1,13 +1,13 @@
-/* --- Client ID (persists across refresh/reconnect) --- */
+/* --- Client ID (persists across refresh/reconnect, scoped per tab) --- */
 let clientId;
 try {
-  clientId = localStorage.getItem('evals-quiz-clientId');
+  clientId = sessionStorage.getItem('evals-quiz-clientId');
   if (!clientId) {
     clientId = 'client-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
-    localStorage.setItem('evals-quiz-clientId', clientId);
+    sessionStorage.setItem('evals-quiz-clientId', clientId);
   }
 } catch {
-  // localStorage unavailable (privacy mode, etc.) — use in-memory ID
+  // sessionStorage unavailable (privacy mode, etc.) — use in-memory ID
   clientId = 'client-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 

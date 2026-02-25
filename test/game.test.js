@@ -140,6 +140,16 @@ describe('Vote processing', () => {
     assert.equal(result.votes.b, 1);
     assert.equal(result.totalVoters, 1);
   });
+
+  it('two different clientIds produce independent vote tallies', () => {
+    const state = makeInitialState();
+    processVote(state, 'tab1', 'a');
+    const result = processVote(state, 'tab2', 'b');
+    assert.ok(result);
+    assert.equal(result.votes.a, 1);
+    assert.equal(result.votes.b, 1);
+    assert.equal(result.totalVoters, 2);
+  });
 });
 
 describe('Admin actions', () => {
