@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Evals Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>LLM Evals Quiz</h1>
+      <span class="round-badge" id="round-badge">Round 1 of 7</span>
+      <div class="vote-count" id="vote-count">
+        <strong id="voter-count">0</strong> votes cast
+      </div>
+    </div>
+
+    <div class="game-area" id="game-area">
+      <div class="question" id="question"></div>
+
+      <div class="cards">
+        <div class="card" id="card-a" data-choice="a">
+          <div class="card-header">
+            <div class="card-label">Response A</div>
+            <div class="card-vote-count" id="card-count-a">0 votes</div>
+          </div>
+          <div class="card-content" id="content-a"></div>
+          <div class="source-badge" id="source-a"></div>
+        </div>
+        <div class="card" id="card-b" data-choice="b">
+          <div class="card-header">
+            <div class="card-label">Response B</div>
+            <div class="card-vote-count" id="card-count-b">0 votes</div>
+          </div>
+          <div class="card-content" id="content-b"></div>
+          <div class="source-badge" id="source-b"></div>
+        </div>
+      </div>
+
+      <div class="vote-bar-container" id="vote-bar-container">
+        <div class="vote-bar-labels">
+          <span id="vote-label-a">Response A: 0</span>
+          <span id="vote-label-b">Response B: 0</span>
+        </div>
+        <div class="vote-bar">
+          <div class="vote-bar-a" id="vote-bar-a"></div>
+          <div class="vote-bar-b" id="vote-bar-b"></div>
+        </div>
+      </div>
+
+      <div class="waiting-message" id="waiting-message">
+        Select the response you think is better
+      </div>
+    </div>
+
+    <div class="end-screen" id="end-screen">
+      <h2>Quiz Complete!</h2>
+      <p>Thanks for participating in the LLM Evals Quiz.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/client.js"></script>
+</body>
+</html>

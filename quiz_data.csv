@@ -1,0 +1,107 @@
+Number,Question,Option A Text,Option A Source,Option B Text,Option B Source
+1,Why is my CalFresh application taking so long how long it takes to get approved?,"I'm so sorry to hear that . It normally takes the county 30 days to fully process a case and make a decision. 
+
+
+If it's been more than that and you have not heard back or seen any updates at your BenefitsCal account, we recommend reaching out to your county office directly for an update.",Client Success (humans),"CalFresh application processing times vary greatly, but generally take 30-60 days to be approved. Factors like caseworker workload and complexity of your case can significantly impact the timeline.
+
+You can check your application status online at https://www.cdfwd.ca.gov/calfresh/.",gemma-3-4b
+2,I feel like my CalFresh benefits amount was reduced by mistake. How do I appeal?,"You can appeal your CalFresh benefit reduction by submitting a formal appeal through your state’s CalFresh agency website or by calling their customer service. Gather evidence like recent income statements, bills, or documentation that supports your claim. Complete the appeal form thoroughly and submit it within 30 days of receiving the notice. Include any correspondence or letters you’ve sent regarding the reduction. You may also request a hearing if the agency denies your appeal. Consider contacting your local agency or a nonprofit food assistance advocate for guidance. Be prepared to attend a hearing if requested. Keep copies of all submitted documents. Follow up in writing to confirm receipt of your appeal.",qwen3-vl-8b,"I am sorry to hear that your benefits have recently decreased. Changes to CalFresh benefits are generally caused by a change in income and/or expenses that was recently reported to the county, amongst other factors. You do have the right to ask for a hearing though if you think there is something wrong with your CalFresh case, or if you think you were incorrectly denied for CalFresh.
+
+The county office will send you a written Notice of Action before it stops, reduces or changes your benefits. If you request a hearing before the change takes place, your benefits will continue as normal until the hearing or your certification period ends.
+
+How to ask for a hearing:
+
+- Call toll free: 1-800-952-5253 OR
+- Complete an online form: https://acms.dss.ca.gov/acms/page.request.do?page=public.intakeForm OR 
+- Fill out the back of any Notice of Action
+",Client Success (humans)
+3,I have been convicted for selling drugs. Can I get food stamps? I live in Florida,"As a convicted drug offender, you may be eligible for food stamp benefits in Florida, but there are certain restrictions and requirements that apply to your situation.
+
+Under Florida law, individuals who have been convicted of certain drug-related offenses may be disqualified from receiving food stamps for a period of time. Specifically, if you have been convicted of selling or distributing drugs, you will be disqualified from receiving food stamps for at least one year after the date of your conviction.
+
+However, if you are otherwise eligible for food stamps and meet the program's income and resource requirements, you may still be able to receive benefits. To qualify, you must meet the following criteria:
+
+* Your income must be within the program's income limits.
+* You must have limited resources (such as cash and savings) that are available to purchase food.
+* You must be a U.S. citizen or eligible immigrant.
+* You must reside in Florida.
+
+It is important to note that the food stamp program has specific rules and requirements, and these can vary by state. Therefore, it is advisable to consult with a local social service agency or a legal aid organization for more information on how these rules apply to your situation.",meta-llama-2-7b-chat,"No. In Florida, most people convicted for selling drugs can't get food stamps.
+
+You are not eligible if:
+
+* the conviction was for things you did after August 22, 1996 
+* a court has not expunged your conviction
+
+If the conviction was for things you did before August 22, 1996 then you are eligible. You are eligible even if the date of your conviction was after August 22, 1996
+
+Even if you aren't eligible, other people in your household can still be eligible. That means you can still apply for food stamps for other people who live with you.
+
+You can be eligible for food stamps in the future if a court expunges your conviction. You would need to prove that a court had expunged your conviction. You could provide a court order to the Florida Department of Children and families as proof.",Policy (humans)
+4,"If I apply for SNAP, can ICE get my information? I live in Vermont","SNAP and ICE Information Sharing
+
+Short answer: Generally no, but with caveats.
+
+- SNAP applications are handled by state/local agencies, not shared with ICE by default
+- Vermont has additional protections limiting data sharing with immigration enforcement
+- However, if you're asked about immigration status during the application, false statements could create separate legal issues
+- If ICE obtains information through other means (warrant, criminal investigation), SNAP records could be accessed
+
+For your specific situation, consult a local immigration attorney or Vermont Legal Aid for personalized advice.",claude-haiku-4-5-20251001,"""Vermont has already given some private information about people who get food help (3SquaresVT) to the federal government. This happened because the federal government (USDA) asked all states for a list of names, birthdays, home addresses, and Social Security numbers.
+
+Vermont leaders said they had to share this data to follow federal law and to make sure the state didn't lose its funding for food help. They did not share information about whether people are U.S. citizens or not.
+
+The federal government says they want this data to find fraud. However, some people are worried that ICE could use this information in the future for immigration rules.
+
+If you are applying for 3SquaresVT now, your information will likely be shared with the federal government as part of these rules. Before you apply, you should think about the help your family needs and any risks that feel important to you.""",Policy (humans)
+5,"I am 35 years old and non-disabled. I live alone in Arkansas. I earn around $1,500 a month before taxes. I have about $5,000 in the bank. Can I get SNAP?","Short answer: Maybe — you might meet the income test, but your bank balance could block you unless an exemption or a state rule helps. It’s worth applying because the state will make the official determination.
+
+Key points for a single, non‑disabled adult living alone in Arkansas
+
+- Income test: SNAP uses two income tests. Most able-bodied adults without dependents must meet the gross monthly income limit (about 130% of the Federal Poverty Level) and a net income test after deductions. With a gross monthly income of about $1,500 you may be near or under the gross limit for a one‑person household, so income alone might not disqualify you.
+
+- Resource (asset) test: Many states (including Arkansas unless a recent policy change removed it) count countable resources and have a limit for households without an elderly/disabled member. That limit is commonly around $2,500. Cash in the bank is generally a countable resource, so $5,000 would typically exceed that limit and could make you ineligible — unless some of that money is in exempt accounts or Arkansas is using broad‑based categorical eligibility that waives the asset test for certain recipients.
+
+- Work/ABAWD rule: Because you are 35 and not disabled and (if) you have no dependents, you’re subject to the Able‑Bodied Adult Without Dependents (ABAWD) rules. ABAWDs must work or participate in an approved work program/20 hours per week (about 80 hours per month) to receive SNAP beyond a 3‑month limit in a 36‑month period unless your area has a waiver.
+
+What to do next
+1. Apply or contact Arkansas DHS. The state agency will check income, allowable deductions, resources, and any local waivers. You can apply online, by phone, or in person at your county DHS office. (Search “Arkansas DHS SNAP” or visit the USDA SNAP page for links and your state portal.)
+2. If the bank balance is the only barrier, ask whether any of your funds are exempt (retirement accounts, your home, some vehicles, etc.), or whether you can convert funds to an exempt form (legally and carefully — e.g., pay bills, prepay rent/utilities, buy needed household items) before the certification date. Get specific guidance from DHS before taking action.
+3. If you’re subject to ABAWD rules and aren’t working 80 hours/month, ask the caseworker about local work programs, training, or waivers that could prevent time limits.
+
+If you want, tell me:
+- Are you the only person in your household?
+- Are you a U.S. citizen or a qualified non‑citizen?
+- Do you have any dependents, disabilities, or receive any other benefits (Unemployment, TANF, SSI)?
+I can then give a tighter estimate and point to the correct application page/contact for Arkansas.",gpt-5-mini,"Based on the current rules for SNAP (Supplemental Nutrition Assistance Program) in Arkansas, here is an evaluation of your eligibility.
+
+The short answer is: It is unlikely you will qualify right now, primarily because of the amount you have in the bank.
+
+Here is the breakdown of why:
+
+1. Asset/Resource Limit (The Main Hurdle)
+Arkansas is one of the states that enforces a """"Resource Limit"""" for most SNAP applicants. 
+*   The Limit: For a household of one (non-elderly and non-disabled), the limit for countable resources is $2,750.
+*   Your Situation: You have $5,000 in the bank. 
+*   Result: Because your cash savings exceed the $2,750 limit, you would likely be denied regardless of your income. (Note: Your home and your primary vehicle usually do not count toward this limit, but cash in savings or checking accounts does.)
+
+2. Gross Income Limit
+*   The Limit: For a household of one, the gross monthly income limit (before taxes) is currently $1,580 (130% of the Federal Poverty Level).
+*   Your Situation: You earn $1,500.
+*   Result: You pass this part of the test. You are under the gross income ceiling.
+
+3. Net Income Limit
+If you met the asset test, the state would then look at your """"Net Income"""" (income after deductions for rent, utilities, and earned income credits). 
+*   The Limit: Your net income must be below $1,215. 
+*   Result: With a $1,500 gross income, after the standard deduction and a deduction for high housing costs, you would likely pass this test as well.
+
+4. Work Requirements (ABAWD)
+Because you are 35 and non-disabled, you fall under the **ABAWD** (Able-Bodied Adult Without Dependents) rules.
+*   The Requirement: To keep benefits for more than 3 months in a 3-year period, you must work or participate in a qualifying work program for at least 80 hours per month.
+*   Your Situation: If your $1,500/month comes from a job where you work at least 20 hours a week, you would meet this requirement.
+
+While your income is low enough to qualify, your $5,000 in savings currently disqualifies you under Arkansas state rules.",gemini-3-flash-preview
+6,I live in Indiana. Can I buy a Kit-Kat with SNAP?,"No. If you live in Indiana and try to purchase a Kit-Kat with your SNAP benefits today, you wouldn't be able to use your EBT card. Indiana recently passed laws that restrict the purchase of soft drinks and candy with your EBT card.",Policy (humans),"Yes. SNAP benefits can be used to buy candy, including Kit-Kat bars, in Indiana as long as you’re shopping at a SNAP-authorized retailer. SNAP covers most foods for home consumption; it does not cover alcohol, tobacco, vitamins/medicine, non-food items, or hot/prepared foods.",gpt-5.2
+7,I live in Iowa. Can I buy a prepared salad with dressing with SNAP?,"No. If you live in Iowa and try to purchase prepared salad with dressing with your SNAP benefits today, you wouldn't be able to use your EBT card. 
+
+Iowa recently passed laws that restrict all taxable food items as defined by the Iowa Department of Revenue except food producing plants and seeds for food producing plants.",Policy (humans),"Yes, in Iowa, prepared salads with dressing are generally eligible for SNAP purchase, as long as they are intended to be eaten at home (not hot/heated foods). Cold prepared foods like deli salads are typically SNAP-eligible.",claude-sonnet-4-6
